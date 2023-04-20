@@ -211,3 +211,82 @@ padding: 120px 0 120px;
     color: #FFCC2C;
     background-size: 78% 1px;
 }
+/* Services */
+#services-selection{
+    padding-bottom: 120px;
+}
+.services-selection__title{
+    margin-bottom: 66px;
+    text-align: left;
+}
+.service-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:24px;
+}
+.services-img{
+    margin-bottom: 24px; 
+}
+.services-subtitle{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+.services-text{
+    color: rgb(255 255 255 / 80%);
+}
+/* destination */
+#destination-selection{
+    padding-bottom: 162px;
+}
+.destination-title{
+    max-width: 591px;
+    margin: 0 auto 40px;
+}
+.destination-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:24px;
+    /*background-color: #171717;*/
+}
+.destination{
+    background-color: #171717;
+    border: 1px solid #171717;
+}
+.destination-info{
+    padding: 24px;
+}
+.destination-subtitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.destination-text{
+    font-weight: 400;
+    color: rgb(255 255 255 / 80%);
+    margin-bottom: 24px;
+}
+.destination-span{
+    position: relative;
+    display: block;
+    padding-left: 42px;
+    margin-bottom: 16px;
+}
+.destination-span::before{
+    position: absolute;
+    content: '';
+    top:50%;
+    left:0;
+    width: 30px;
+    height: 30px;
+    background: url(image/Front\ Car.svg) no-repeat;
+    transform: translateY(-50%);
+}
+.destination-search{
+    color: #EE8313;
+}
+.destination-search:hover{
+    color: #e36511;
+}
+
